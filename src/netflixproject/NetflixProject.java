@@ -22,7 +22,7 @@ public class NetflixProject extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
-        
+        System.out.println(" hello" );
         stage.setScene(scene);
         stage.show();
     }
